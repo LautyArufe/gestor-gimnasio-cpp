@@ -7,6 +7,9 @@ Gimnasio LautyArufe
 - Archivos binarios
 - Code::Blocks
 
+## Introduccion:
+Este proyecto consiste en un sistema de gestión de archivos relacionados orientado a la administración general de un gimnasio. El programa ofrece diferentes opciones para que el usuario pueda gestionar de forma organizada los registros de los socios, los planes y las inscripciones. Tambien cuenta con 3 reportes creados mediante logica de programacion y relacion de archivos.
+
  ## Archivos principales
 ### socios.dat:
 - (cuenta con 5 objetos cargados).
