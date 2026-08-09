@@ -1,5 +1,5 @@
 # Gestor de Gimnasio
-- Gimnasio LautyArufe
+Gimnasio LautyArufe
 
 ## Tecnologías utilizadas:
 - C++
@@ -11,9 +11,12 @@
 Este proyecto consiste en un sistema de gestión de archivos relacionados orientado a la administración general de un gimnasio. El programa ofrece diferentes opciones para que el usuario pueda gestionar de forma organizada los registros de los socios, los planes y las inscripciones. Tambien cuenta con 3 reportes creados mediante logica de programacion y relacion de archivos.
 
  ## Archivos principales
-### socios.dat (cuenta con 5 objetos cargados).
-### planes.dat (cuenta con 5 objetos cargados).
-### inscripciones.dat (cuenta con 5 objetos cargados).
+### socios.dat:
+- (cuenta con 5 objetos cargados).
+### planes.dat:
+- (cuenta con 5 objetos cargados).
+### inscripciones.dat:
+- (cuenta con 5 objetos cargados).
 
  ## Conceptos aplicados
 ### Programación orientada a objetos (POO):
@@ -35,7 +38,7 @@ Este proyecto consiste en un sistema de gestión de archivos relacionados orient
 - Listado de: socios sin inscripciones
 - Listado de: Cant. De inscripciones x plan.
 ### Aclaracion:
-- "una vez que una inscripcion es registrada, luego si se da de baja el plan o el socio que esta registrado en esa inscripcion, la inscripcion seguira vigente ya que se realizo antes de que se haya realizado esa baja".
+"una vez que una inscripcion es registrada, luego si se da de baja el plan o el socio que esta registrado en esa inscripcion, la inscripcion seguira vigente ya que se realizo antes de que se haya realizado esa baja".
 
 ## Autor
 - Lautaro Arufe
