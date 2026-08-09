@@ -21,20 +21,20 @@ Este proyecto consiste en un sistema de gestión de archivos relacionados orient
   Clases y objetos.
 - Manejo de archivos binarios:
   Uso de archivos: fopen, fwrite, fread, fseek, ftell y fclose.
-  Alta, baja, modificacion (AMB).
+  Alta, baja, modificacion (ABM).
 - Logica de programacion:
 
 ## Funcionalidades
 - Cargas, modificaciones y bajas lógicas de registros:
-  Gestión de socios (AMB)
-  Gestión de planes (AMB)
-  Gestión de inscripciones (AMB)
+  Gestión de socios (ABM)
+  Gestión de planes (ABM)
+  Gestión de inscripciones (ABM)
 - Relación entre los archivos: socios, planes e inscripciones
 - Generación de 3 reportes:
   Ver: plan mas contratado.
   Listado de: socios sin inscripciones
   Listado de: Cant. De inscripciones x plan.
-- Aclaracion: "una vez que una inscripcion es registrada, luego si se da de baja el plan o el socio que esta registrado en esa inscripcion, la inscripcion seguira vigente ya que se realizo antes de que se alla realizado esa baja".
+- Aclaracion: "una vez que una inscripcion es registrada, luego si se da de baja el plan o el socio que esta registrado en esa inscripcion, la inscripcion seguira vigente ya que se realizo antes de que se haya realizado esa baja".
 
 ## Autor
 Lautaro Arufe
