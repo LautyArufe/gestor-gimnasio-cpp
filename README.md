@@ -1,106 +1,40 @@
 # Gestor de Gimnasio
 Gimnasio LautyArufe
 
-## Descripción
-Sistema de gestión de archivos relacionados de un gimnasio desarrollado en C++ utilizando archivos binarios. El proyecto implementa Programación Orientada a Objetos (POO), manejo de archivos y lógica de programación para administrar la información y generar 3 reportes.
-
-## Tecnologías utilizadas
+## Tecnologías utilizadas:
 - C++
 - Programación Orientada a Objetos (POO)
 - Archivos binarios
 - Code::Blocks
 
-## Funcionalidades
-- Gestión de socios
-- Gestión de planes
-- Gestión de inscripciones
-- Cargas, modificaciones consultas y bajas lógicas de registros
-- Relación entre los archivos: socios, planes e inscripciones
-- Generación de 3 reportes
-  
+## Introducción:
+Este proyecto consiste en un sistema de gestión de archivos relacionados orientado a la administración general de un gimnasio. El programa ofrece diferentes opciones para que el usuario pueda gestionar de forma organizada los registros de los socios, los planes y las inscripciones. Tambien cuenta con 3 reportes creados mediante logica de programacion y relacion de archivos.
+
  ## Archivos principales
-- socios.dat:
-- planes.dat
-- inscripciones.dat
+- socios.dat (cuenta con 5 objetos cargados).
+- planes.dat (cuenta con 5 objetos cargados).
+- inscripciones.dat (cuenta con 5 objetos cargados).
 
-  ## Conceptos aplicados
-- Programación Orientada a Objetos
-- Clases y objetos
-- Herencia
-- Encapsulamiento
-- Manejo de archivos binarios
-- Relaciones entre archivos
-- Validaciones
-- Búsqueda y modificación de registros
-- Generación de reportes
+ ## Conceptos aplicados
+- Programación orientada a objetos (POO):
+  Encapsulamiento, composicion y herencia.
+  Clases y objetos.
+- Manejo de archivos binarios:
+  Uso de archivos: fopen, fwrite, fread, fseek, ftell y fclose.
+  Alta, baja, modificacion (AMB).
+- Logica de programacion:
 
-## Clases Principales:
-class Fecha {
-private:
-//Atributos:
-- Dia: int;
-- Mes: int;
-- Anio: int;
-public:
-//Constructor:
-- Fecha ();
-//Setters:
-- void setDia (int);
-- void setMes (int);
-- void setAnio (int;
-//Getters:
-- int getDia ();
-- int getMes ();
-- int getAnio ();
-//Metodos:
-- void CargarFecha ();
-- void MostrarFecha ();
-
-class Personas {
-private:
-- Nombre: char [30];
-- Apellido: char [30];
-- DNI: int;
-- Telefono: char [30]
-- Email: char [30]
-- FechaNacimiento: Fecha;
-public:
-//Constructor:
-- Personas ();
-//Setters:
-- void setNombre (const char*);
-- void setApellido (const char*);
-- void setDNI (int);
-- void setTelefono (const char*);
-- void setEmail (const char*);
-//Getters:
-- const char* getNombre ();
-- const char* getApellido ();
-- int getDNI ();
-- const char* getTelefono ();
-- const char* getEmail ();
-- Fecha getFechaNacimiento ();
-//Metodos:
-- void CargarPersona ();
-- void MostrarPersona ();
-
-class Socios: public Personas {
-private:
-- IdSocio: int;
-- Estado: bool;
-public:
-//Constructor:
-- Socios ();
-//Setters:
-- void setIdSocio (int);
-- void setEstado (bool);
-//Getters:
-- int getIdSocio ();
-- bool getEstado ();
-//Metodos:
-- void CargarSocio ();
-- void ModificarSocio ();
-- void MostrarSocio ();
+## Funcionalidades
+- Cargas, modificaciones y bajas lógicas de registros:
+  Gestión de socios (AMB)
+  Gestión de planes (AMB)
+  Gestión de inscripciones (AMB)
+- Relación entre los archivos: socios, planes e inscripciones
+- Generación de 3 reportes:
+  Ver: plan mas contratado.
+  Listado de: socios sin inscripciones
+  Listado de: Cant. De inscripciones x plan.
+- Aclaracion: "una vez que una inscripcion es registrada, luego si se da de baja el plan o el socio que esta registrado en esa inscripcion, la inscripcion seguira vigente ya que se realizo antes de que se alla realizado esa baja".
 
 ## Autor
 Lautaro Arufe
