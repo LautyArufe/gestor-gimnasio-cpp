@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstring>
+#include "CargarCadena.h"
+
+using namespace std;
+
+void CargarCadena(char *palabra, int tam){
+    string texto;
+    if(cin.peek()=='\n'){
+        cin.ignore();
+    }
+    getline(cin, texto);
+    strncpy(palabra, texto.c_str(), tam);
+    palabra[tam-1]='\0';
+}
